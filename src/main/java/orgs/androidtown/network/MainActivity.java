@@ -22,6 +22,8 @@ import java.net.URL;
  */
 public class MainActivity extends AppCompatActivity {
     TextView textView;
+
+
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         Handler handler;
 
         public NetworkThread(Handler handler) {
+
             this.handler = handler;
         }
 
