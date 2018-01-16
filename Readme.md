@@ -173,8 +173,8 @@ boolean sendMessageAtFrontOfQueue(Message msg)
 - 웹페이지를 보기위해 사용하는 HTTP프로토콜, 파일전송을 위한 FTP프로토콜, 메일을 위한 POP3프로토콜 등이 있음
 - 2-tier(클라이언트 - 서버)와 3-tier(클라이언트-응용서버-데이터서버) 등이 있음
 
-#### ※ StringBuilde
-r
+#### ※ StringBuilder
+
 - 문자열의 저장 및 변경을 위한 메모리 공간을 지닌 클래스 
 ​- 문자열 데이터의 추가를 위해 append와 insert메소드를 지니고 있음.
 - String클래스는 문자열상수를 지니는 메모리 공간을 지니고 있으나, StringBuffer,StringBuilder안의 메모리 공간은 값이 변경 가능한 변수의 성격을 지님.​
